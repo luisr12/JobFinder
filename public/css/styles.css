@@ -222,6 +222,7 @@ color: #f7f9fc;
     color:#f03e3e;
 }
 .back-link{
+    text-decoration: none;
     position: relative;
     width: 15%;
     border: 1px solid #f03e3e;
@@ -232,5 +233,6 @@ color: #f7f9fc;
     background-color: #f03e3e;
     display: block;
     color: #ccc;
+    text-decoration: none;
 }
 
