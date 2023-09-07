@@ -1,9 +1,9 @@
-const Sequelize = require('sequelize');
+const { Sequelize } = require('sequelize');
 
-
-const sequelize = new Sequelize({
-    dialect: 'sqlite',
-    storage: './DB/app.db' // Cria um caminho absoluto
+// Configurações de conexão com o banco de dados
+const sequelize = new Sequelize('app', 'root', 'usbw', {
+  host: 'localhost', // O host do seu banco de dados
+  dialect: 'mysql',  // O dialeto do banco de dados (neste caso, MySQL)
 });
 
 module.exports = sequelize
